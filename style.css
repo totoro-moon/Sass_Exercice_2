@@ -1,0 +1,17 @@
+.partie .titre {
+  font-size: 20px;
+  color: #ff00e1;
+  font-family: monospace;
+}
+.partie .corps {
+  font-size: 12px;
+  color: red;
+  font-family: serif;
+}
+.partie h4 {
+  font-size: 30px;
+  color: #00ff37;
+  font-family: fantasy;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,29 @@
+//les mixins permet de créer des groupes de déclarations css  qu'on souhaite reutiliser sur l'ensemble de notre code
+@mixin monosapace_titre_rose{
+  font-size: 20px;
+  color: #ff00e1;
+  font-family: monospace;
+}
+//permet de nomé la mixin selon son emploi
+@mixin fantasy_titre_vert{
+  font-size: 30px;
+  color: #00ff37;
+  font-family: fantasy;
+}
+@mixin color_red{
+  font-size: 12px;
+  color: red;
+  font-family: serif;
+}
+
+.partie{
+  .titre{
+    @include monosapace_titre_rose;
+  }
+  .corps{
+    @include color_red;
+  }
+    h4{
+      @include fantasy_titre_vert ;
+    }
+  }
